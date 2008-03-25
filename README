@@ -1,0 +1,86 @@
+ruby-mechanize
+------------------------------------------
+The Mechanize library is used for automating interaction with websites. 
+Mechanize automatically stores and sends cookies, follows redirects, can 
+follow links, and submit forms. Form fields can be populated and 
+submitted. Mechanize also keeps track of the sites that you have visited 
+as a history.
+
+Runtime requirements:
+  ruby-1.8.6-1
+  ruby-hpricot-0.6-1
+  rubygems-0.9.4-1
+
+Additional build requirements:
+  cygport-0.3.8-1
+  rake-0.7.2-1
+  ruby-hoe-1.5.1-1
+
+Canonical website:
+  http://mechanize.rubyforge.org/mechanize/
+
+Canonical download:
+  http://rubyforge.org/projects/mechanize/files
+
+-------------------------------------------
+
+Build instructions:
+  unpack ruby-mechanize-0.7.5-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ruby-mechanize-0.7.5-X.cygport all
+
+This will create:
+  /usr/src/ruby-mechanize-0.7.5-X-src.tar.bz2
+  /usr/src/ruby-mechanize-0.7.5-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/ruby/site_ruby/1.8/mechanize.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/content_type_error.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/cookie.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/cookie_jar.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/file.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/file_saver.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/form.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/form/button.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/form/check_box.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/form/field.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/form/file_upload.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/form/image_button.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/form/multi_select_list.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/form/option.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/form/radio_button.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/form/select_list.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/headers.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/history.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/inspect.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/list.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/monkey_patch.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/page.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/page/base.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/page/frame.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/page/link.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/page/meta.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/pluggable_parsers.rb
+  /usr/lib/ruby/site_ruby/1.8/www/mechanize/response_code_error.rb
+  /usr/share/doc/ruby-mechanize-0.7.5/ChangeLog.txt
+  /usr/share/doc/ruby-mechanize-0.7.5/FAQ.txt
+  /usr/share/doc/ruby-mechanize-0.7.5/LICENSE.txt
+  /usr/share/doc/ruby-mechanize-0.7.5/NOTES.txt
+  /usr/share/doc/ruby-mechanize-0.7.5/README.txt
+
+------------------
+
+Port Notes:
+
+----- version 0.7.5-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
