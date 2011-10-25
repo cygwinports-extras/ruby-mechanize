@@ -1,5 +1,5 @@
 category: Ruby Web
-requires: ruby ruby-hpricot rubygems
+requires: ruby ruby-nokogiri
 sdesc: "Ruby automated website interaction library"
 ldesc: "The Mechanize library is used for automating interaction with 
 websites. Mechanize automatically stores and sends cookies, follows 
